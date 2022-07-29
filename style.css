@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------Navigation Bar---------------- */
+
+
+.navbar-container{
+    width: 100vw;
+    height: 121px;
+    position: relative;
+}
+.navbar-container img{
+    position: absolute;
+    left: 174px;
+    top: 40px;
+    width: 116px;
+    height: 38px;
+    cursor: pointer;
+}
+.list{
+    width: 530px;
+    height: 66px;
+    position: absolute;
+    left: 350px;
+    text-align: center;
+    top: 37px;
+}
+.list li{
+    float: left;
+    margin: 10px 20px;
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    color: #c4c4c4;
+    cursor: pointer;
+}
+.list li:first-child{
+    color: rgb(0, 0, 0);
+}
+.button-group .nav-button{
+    position: absolute;
+    right: 95px;
+    top: 37px;
+}
+.nav-button{
+    background-color: #5955b3;
+    border: none;
+    width: 134px;
+    height: 52px;
+    border-radius: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------Banner Section--------------- */
+.banner-container{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    
+}
+
+ /* ------------------------------Left section------------- */
+
+.banner-container div:first-child{
+    position: absolute;
+    height: 80vh;
+    width: 40vw;
+    text-align: center;
+}
+.heading-text{
+    color: #3c2f60;
+    font-size: 53px;
+    width: 439px;
+    margin-left: 162px;
+    text-align: left;
+    margin-top: 50px;
+    line-height: 1.3;
+}
+.heading-text span{
+    color: #5955b3;
+}
+.description{
+    font-size: 14px;
+    width: 314px;
+    margin-left: 167px;
+    margin-top: 17px;
+    text-align: left;
+}
+.btn{
+    width: 200px;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: -87px;
+}
+
+/* -----------------------------Right section--------- */
+.banner-container div:last-child{
+    position: absolute;
+    height: 80vh;
+    width: 59vw;
+    text-align: center;
+    right: 0;
+}
+
+.banner-container div:last-child img{
+    width: 906px;
+    height: 570px;
+}
