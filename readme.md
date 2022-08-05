@@ -1,22 +1,47 @@
-# Html and CSS Project UI Templates
-## Project 4 : We Help You Crush Your Competition
+# ⭐ Project 4 : Digital Marketing Page⭐
 
-- Guided by Hitesh Choudhary
-- Made by Pratyush Kesarwani
-
-### Learnings :
-- Less HTML and CSS with beautiful UI Template
-- Structuring **HTML**
-- Linking CSS Style sheet with Html
-- **CSS Selectors**
-- Margin and Padding with Negative values
-- Units like pixels, viewports,percentage
-
-
-### Time taken to complete this project was **1 hr**.
 
 ## 🔗Project 4 Link
 https://htmlcssproject04.netlify.app/
 
+This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
+<br>
 
-![](https://img.shields.io/badge/HTML-CSS-green)
+<br>
+
+## 📌 Tech Stack
+
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/pk170970)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/pk170970)&nbsp;
+<br>
+<br>
+
+## 📌 Overview
+
+<br>
+
+![Screenshot](./screenshot.png) "Template Screenshot")
+
+
+
+
+## 📌 What I Learn
+
+  👉 Less HTML and CSS with beautiful UI Template <br>
+  👉 Structuring **HTML**  <br>
+  👉 Linking CSS Style sheet with Html  <br>
+  👉 **CSS Selectors**  <br> 
+  👉 Margin and Padding with Negative values  <br>
+  👉 Units like pixels, viewports,percentage  <br>
+
+
+
+## Time taken to complete this project was **1 hr**.
+
+## 📬 Connect With Me
+
+- **LinkedIn** - [Pratyush Kesarwani](https://www.linkedin.com/in/pratyush-kesarwani-2b6601171/)
+
+## 📌 Acknowledgments
+
+- Course Instructor - [Hitesh Choudhary](https://github.com/hiteshchoudhary)
