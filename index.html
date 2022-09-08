@@ -9,6 +9,7 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/1e74b473dc.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -17,30 +18,36 @@
   </head>
   <body>
     <div class="container">
-      <section aria-label="navbar">
-        <nav class="navbar-container">
+
+      <section aria-label="navbar" class="nav" id="nav-box">
+        <nav class="navbar-container" id="myNav">
           <div>
             <img src="./assets/Logo.png" alt="brand-logo" />
           </div>
-          <div class="grow-list">
-            <ul class="list">
-              <li class="list-item">Home</li>
-              <li class="list-item">About</li>
-              <li class="list-item">Services</li>
-              <li class="list-item">Portfolio</li>
-              <li class="list-item">Pricing</li>
-            </ul>
-          </div>
-          <div class="button-group">
-            <button class="nav-button">Contact Us</button>
+
+          <div class="links" id="link">
+            <div class="grow-list">
+              <ul class="list">
+                <li class="list-item">Home</li>
+                <li class="list-item">About</li>
+                <li class="list-item">Services</li>
+                <li class="list-item">Portfolio</li>
+                <li class="list-item">Pricing</li>
+              </ul>
+            </div>
+            <div class="button-group">
+              <button class="nav-button">Contact Us</button>
+            </div>
           </div>
         </nav>
+        <i class="fa-solid fa-bars" id="hamburger"></i>
       </section>
+
       <!-- Banner -->
       <section aria-label="banner">
         <div class="banner-container">
           <!-- Left text -->
-          <div>
+          <div class="left-content">
             <h1 class="heading-text">
               We Help You <span>Crush</span> Your Competition
             </h1>
@@ -51,11 +58,41 @@
             <button class="nav-button btn">See our services</button>
           </div>
           <!-- Right Text -->
-          <div>
+          <div class="right-content">
             <img src="./assets/Header Illustration.png" alt="illustration" />
           </div>
         </div>
       </section>
     </div>
+
+
+
+    <script>  
+    if (matchMedia('only screen and (max-width: 600px)').matches) {
+
+
+    const link= document.getElementById("link");
+    const navBar= document.getElementById("myNav");
+    const button= document.getElementById("hamburger");
+    const bg= document.getElementById("nav-box");
+    let toggle=true;
+
+    button.addEventListener("click",()=>{
+      if(toggle){
+        link.style.display="flex";
+        navBar.style.marginBottom= "12em";
+        bg.style.backgroundColor="cornsilk";
+        toggle=false;
+      }
+      else{
+        link.style.display="none";
+        navBar.style.marginBottom= "0em";
+        bg.style.backgroundColor="white";
+        toggle=true;
+      }
+    })
+  }
+
+    </script>
   </body>
 </html>
